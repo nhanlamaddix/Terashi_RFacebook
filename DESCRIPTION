@@ -1,0 +1,17 @@
+Package: gftShinyAuthR
+Version: 0.0.0.9000
+Title: Google, Facebook and Twitter Authentication on Shiny Apps
+Description: Google, Facebook and Twitter Authentication on Shiny Apps
+Authors@R: person("Masaki", "Terashi", , "terashi@addix.co.jp", c("aut", "cre"))
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+RoxygenNote: 6.1.1
+Imports: 
+    httr,
+    shiny,
+    googleAuthR,
+    rtweet,
+    jsonlite,
+    stringr
